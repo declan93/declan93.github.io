@@ -5,5 +5,4 @@ permalink: /CV/
 ---
 To do: Update with recent academic style CV
 
-Outdated CV here [here](../images/CV.pdf)
-[link](../images/CV.pdf){:target="_blank"}
+Outdated CV here [here](../images/CV.pdf){:target="_blank"}
