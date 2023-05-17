@@ -3,6 +3,5 @@ layout: page
 title: CV
 permalink: /CV/
 ---
-To do: Update with recent academic style CV
 
-Outdated CV [here](../images/CV.pdf){:target="_blank"}
+A PDF copy of my brief CV can be found [here](../assets/CV.pdf){:target="_blank"}
