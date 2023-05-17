@@ -12,7 +12,9 @@ After graduating from my MSc (2018) I worked as a Bioinformatician at EMBL-EBI f
 
 I returned to Galway to undertake a Irish research council funded PhD scholarship working somatic mutations from population sequencing projects. In 2020 I moved from the IRC post to an Science Foundation Ireland PhD scholarship within the same research group. During My PhD I have been acting as a defacto System administrator for two high performance compute clusters and all the fun that goes along with HPC administration. In 2019, I was awarded a  €25,000 small research equipment grant to contribute to a new high perfomance filesystem (250TB usuable storage). In the first year of my PhD I was a TA for probablistic modelling for molecular biology. This course covered topics such as Markov chain Monte Carlo methods and models of DNA evolution (Jukes & Cantor, Kimura's 2 parameter model,General time reversible etc...). 
 
+
 **PhD Abstract**
+
 *Somatic mutations accumulate throughout life and contribute significantly to disease
 risk. While research into somatic mutation is well established in cancer, it is only in
 recent years that investigations into the implications of somatic mutations in healthy
@@ -25,6 +27,7 @@ individuals and across the genome through analysis of low-depth sequencing data,
 developing strategies to distinguish the contribution of somatic mutations to the mis-
 matches (relative to the reference genome) observed in these data from sequencing
 errors, DNA damage and other artefacts.
+
 Using somatic mutation rates obtained from the literature, we estimated that 0.4%
 of the mismatches between the UK Biobank exome sequencing reads and the refer-
 ence genome were due to somatic mutations. We demonstrated that this proportion
@@ -36,6 +39,7 @@ Biobank exome sequencing data, we uncovered previously unreported batch effects 
 lating to sequencing run. The observed associations with cancer diagnosis and smoking
 status were lost when we corrected for this batch effect. However, the batch correction
 improved the correlation between age and mismatch load.
+
 Individuals diagnosed with Lynch syndrome have increased somatic mutation loads
 due to deficiencies in mismatch repair genes and we investigated whether this effect
 could be detected in the exome sequencing data. In the UK Biobank, we identified
