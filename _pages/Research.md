@@ -8,7 +8,7 @@ My research primarily focusses on the study of somatic mutational process within
 
 **PhD Abstract**
 
-*Somatic mutations accumulate throughout life and contribute significantly to disease
+Somatic mutations accumulate throughout life and contribute significantly to disease
 risk. While research into somatic mutation is well established in cancer, it is only in
 recent years that investigations into the implications of somatic mutations in healthy
 tissues have begun to be feasible, due to advances in sequencing technologies and pro-
@@ -41,4 +41,4 @@ COSMIC signatures associated with mismatch repair, we compared the contribution
 of mismatch repair mutational signatures between the Lynch syndrome samples and
 the remaining samples. We detected a marginally statistically significant difference
 between the contribution of SBS18 between the two sample groups; however, this result
-did not survive multiple correction testing.*
+did not survive multiple correction testing.
