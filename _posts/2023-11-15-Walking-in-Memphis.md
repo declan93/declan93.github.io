@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  That's how I got to Memphis
-categories: [life]
+categories: [life,Memphis,St Jude]
 excerpt: 
 ---
 
