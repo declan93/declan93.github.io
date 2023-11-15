@@ -4,6 +4,14 @@ title: Search
 permalink: /search/
 ---
 
+
+ <style>
+p {
+  background-image: url('assets/DNA.jpeg');
+}
+</style> 
+
+
 <div id="search-container">
     <input type="text" id="search-input" placeholder="Search through the blog posts...">
     <ul id="results-container"></ul>
@@ -20,4 +28,3 @@ permalink: /search/
     });
 </script>
 
-element { background: "{{ site.baseurl }}assets/DNA.jpeg"; }
