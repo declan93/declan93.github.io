@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  That's how I got to Memphis
-categories: [life,Memphis,St Jude]
+categories: [life, Memphis, St Jude]
 excerpt: 
 ---
 
-I've been asked why am I moving to Memphis, what its like, and if it is safe etc... etc... I plan to develop more of the points below but given my frequent updates to the website I should have my next post by 2026.
+I've been asked why am I moving to Memphis, what it's like, and if it is safe etc... etc... I plan to develop more of the points below but given my frequent updates to the website I should have my next post by 2026.
 
 [[ Restructure and tidy the language below]]
 
