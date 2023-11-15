@@ -5,6 +5,9 @@
 # Name of your site (displayed in the header)
 name: Declan Bennett
 
+# remove 
+background-image: url('/assets/DNA.jpeg')
+
 # Name of the author
 author: Declan Bennett
 
