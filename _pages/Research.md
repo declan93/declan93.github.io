@@ -4,7 +4,9 @@ title: Research overview
 permalink: /Research/
 ---
 
-My past research primarily focuses on the study of somatic mutational processes within healthy samples. I've extensive experience working on genetic variation and have developed methods to improve the power of GWAS using polygenic scoring methodologies. In 2024, I will be working in Memphis on the PedDep project which aims to characterise genetic dependencies between between drug combinations and genetic alterations in paediatric cancer cell lines. The research group I will be joining focuses primarily on using advanced biological assays with machine learning/AI methods to repurpose drugs used in the treatment of paediatric neuroblastoma.
+My past research primarily focuses on the study of somatic mutational processes within healthy samples. I've extensive experience working on genetic variation and have developed methods to improve the power of GWAS using polygenic scoring methodologies. 
+
+In 2024, I will be working in Memphis on the PedDep project which aims to characterise genetic dependencies between between drug combinations and genetic alterations in paediatric cancer cell lines. The research group I will be joining focuses primarily on using advanced biological assays with machine learning/AI methods to repurpose drugs used in the treatment of paediatric neuroblastoma.
 
 **PhD Abstract**
 
