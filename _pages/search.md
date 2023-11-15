@@ -19,3 +19,5 @@ permalink: /search/
     json: '{{ site.baseurl }}/search.json'
     });
 </script>
+
+#element { background: url(asset_path("assets/DNA.jpeg")); }
