@@ -20,4 +20,4 @@ permalink: /search/
     });
 </script>
 
-#element { background: url(asset_path("assets/DNA.jpeg")); }
+element { background: "{{ site.baseurl }}assets/DNA.jpeg"; }
