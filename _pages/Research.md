@@ -4,13 +4,13 @@ title: Research overview
 permalink: /Research/
 ---
 
-My research primarily focusses on the study of somatic mutational process within healthy samples. I've exptensive experience working on genetic variation and have developed methods to improve the power of GWAS using polygenic scoring methodologies. 
+My past research primarily focuses on the study of somatic mutational processes within healthy samples. I've extensive experience working on genetic variation and have developed methods to improve the power of GWAS using polygenic scoring methodologies. In 2024, I will be working in Memphis on the PedDep project which aims to characterise genetic dependencies between between drug combinations and genetic alterations in paediatric cancer cell lines. The research group I will be joining focuses primarily on using advanced biological assays with machine learning/AI methods to repurpose drugs used in the treatment of paediatric neuroblastoma.
 
 **PhD Abstract**
 
 Somatic mutations accumulate throughout life and contribute significantly to disease
-risk. While research into somatic mutation is well established in cancer, it is only in
-recent years that investigations into the implications of somatic mutations in healthy
+risk. While research into somatic mutation is well-established in cancer, it is only in
+recent years investigations into the implications of somatic mutations in healthy
 tissues have begun to be feasible, due to advances in sequencing technologies and pro-
 tocols. The requirement of specialist techniques has, however, limited the study of
 somatic mutations in healthy tissues to small sample sizes, which do not allow for as-
