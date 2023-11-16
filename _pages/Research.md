@@ -44,3 +44,13 @@ of mismatch repair mutational signatures between the Lynch syndrome samples and
 the remaining samples. We detected a marginally statistically significant difference
 between the contribution of SBS18 between the two sample groups; however, this result
 did not survive multiple correction testing.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8VH0GQB47"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8VH0GQB47');
+</script>
