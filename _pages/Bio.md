@@ -13,13 +13,3 @@ After graduating from my MSc (2018) I worked as a Bioinformatician at EMBL-EBI f
 I returned to Galway to undertake an Irish research council-funded PhD scholarship working on somatic mutations from population sequencing projects. In 2020 I moved from the IRC post to a Science Foundation Ireland PhD scholarship within the same research group. During my PhD, I acted as a defacto System administrator for two high-performance compute clusters and all the fun that goes along with HPC administration. In 2019, I was awarded a  €25,000 small research equipment grant to contribute to a new high-performance filesystem (250TB usable storage). In the first year of my PhD, I was a tutor for probabilistic modelling for molecular biology. This course covered topics such as Markov chain Monte Carlo methods and models of DNA evolution (Jukes & Cantor, Kimura's 2-parameter model, General time reversible etc...). 
 
 After completing my PhD, I undertook a short postdoctoral position at the University of Galway. This position has allowed me to investigate some novel sources of technical errors in NGS data that arose during the analysis of the UK Biobank exome data. 
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8VH0GQB47"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-S8VH0GQB47');
-</script>
