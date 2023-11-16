@@ -10,47 +10,15 @@ In 2024, I will be working in Memphis on the PedDep project which aims to charac
 
 **PhD Abstract**
 
-Somatic mutations accumulate throughout life and contribute significantly to disease
-risk. While research into somatic mutation is well-established in cancer, it is only in
-recent years investigations into the implications of somatic mutations in healthy
-tissues have begun to be feasible, due to advances in sequencing technologies and pro-
-tocols. The requirement of specialist techniques has, however, limited the study of
-somatic mutations in healthy tissues to small sample sizes, which do not allow for as-
-sessment of the impact of somatic mutations on human health on a population scale. We
-posited that it may be possible to study variation in the somatic mutation rate between
-individuals and across the genome through analysis of low-depth sequencing data, by
-developing strategies to distinguish the contribution of somatic mutations to the mis-
-matches (relative to the reference genome) observed in these data from sequencing
-errors, DNA damage and other artefacts.
+Somatic mutations accumulate throughout life and contribute significantly to disease risk. While research into somatic mutation is well-established in cancer, it is only in recent years investigations into the implications of somatic mutations in healthy
+tissues have begun to be feasible, due to advances in sequencing technologies and protocols. The requirement of specialist techniques has, however, limited the study of somatic mutations in healthy tissues to small sample sizes, which do not allow for assessment of the impact of somatic mutations on human health on a population scale. We posited that it may be possible to study variation in the somatic mutation rate between individuals and across the genome through analysis of low-depth sequencing data, by
+developing strategies to distinguish the contribution of somatic mutations to the mismatches (relative to the reference genome) observed in these data from sequencing errors, DNA damage and other artefacts.
 
-Using somatic mutation rates obtained from the literature, we estimated that 0.4%
-of the mismatches between the UK Biobank exome sequencing reads and the refer-
-ence genome were due to somatic mutations. We demonstrated that this proportion
-was sufficient to induce a relationship between the abundance of mismatches and age,
-when individuals were grouped by integer age. We then searched for additional sample
-properties that are correlated with the mismatch burden and found positive correlations
-with cancer diagnosis and smoking status. However, by carefully examining the UK
-Biobank exome sequencing data, we uncovered previously unreported batch effects re-
-lating to sequencing run. The observed associations with cancer diagnosis and smoking
-status were lost when we corrected for this batch effect. However, the batch correction
-improved the correlation between age and mismatch load.
+Using somatic mutation rates obtained from the literature, we estimated that 0.4% of the mismatches between the UK Biobank exome sequencing reads and the reference genome were due to somatic mutations. We demonstrated that this proportion was sufficient to induce a relationship between the abundance of mismatches and age when individuals were grouped by integer age. We then searched for additional sample properties that are correlated with the mismatch burden and found positive correlations
+with cancer diagnosis and smoking status. However, by carefully examining the UK Biobank exome sequencing data, we uncovered previously unreported batch effects relating to sequencing run. The observed associations with cancer diagnosis and smoking
+status were lost when we corrected for this batch effect. However, the batch correction improved the correlation between age and mismatch load.
 
-Individuals diagnosed with Lynch syndrome have increased somatic mutation loads
-due to deficiencies in mismatch repair genes and we investigated whether this effect
-could be detected in the exome sequencing data. In the UK Biobank, we identified
-160 individuals with pathogenic variants associated with Lynch syndrome. Using the
-COSMIC signatures associated with mismatch repair, we compared the contribution
-of mismatch repair mutational signatures between the Lynch syndrome samples and
-the remaining samples. We detected a marginally statistically significant difference
-between the contribution of SBS18 between the two sample groups; however, this result
-did not survive multiple correction testing.
+Individuals diagnosed with Lynch syndrome have increased somatic mutation loads due to deficiencies in mismatch repair genes and we investigated whether this effect could be detected in the exome sequencing data. In the UK Biobank, we identified
+160 individuals with pathogenic variants associated with Lynch syndrome. Using the COSMIC signatures associated with mismatch repair, we compared the contribution of mismatch repair mutational signatures between the Lynch syndrome samples and
+the remaining samples. We detected a marginally statistically significant difference between the contribution of SBS18 between the two sample groups; however, this result did not survive multiple correction testing.
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8VH0GQB47"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-S8VH0GQB47');
-</script>
