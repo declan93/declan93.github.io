@@ -14,3 +14,12 @@ I returned to Galway to undertake an Irish research council-funded PhD scholarsh
 
 After completing my PhD, I undertook a short postdoctoral position at the University of Galway. This position has allowed me to investigate some novel sources of technical errors in NGS data that arose during the analysis of the UK Biobank exome data. 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8VH0GQB47"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8VH0GQB47');
+</script>
