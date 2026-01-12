@@ -1,24 +1,115 @@
 ---
 layout: page
-title: Research overview
+title: Research
 permalink: /Research/
 ---
 
-My past research primarily focuses on the study of somatic mutational processes within healthy samples. I've extensive experience working on genetic variation and have developed methods to improve the power of GWAS using polygenic scoring methodologies. 
+My research focuses on applying computational and machine learning methods to identify therapeutic vulnerabilities in pediatric cancers. I work at St. Jude Children's Research Hospital, leveraging large-scale genomic data and CRISPR screening to accelerate precision medicine.
 
-In 2024, I will be working in Memphis on the PedDep project which aims to characterise genetic dependencies between between drug combinations and genetic alterations in paediatric cancer cell lines. The research group I will be joining focuses primarily on using advanced biological assays with machine learning/AI methods to repurpose drugs used in the treatment of paediatric neuroblastoma.
+---
 
-**PhD Abstract**
+## Current Research
 
-Somatic mutations accumulate throughout life and contribute significantly to disease risk. While research into somatic mutation is well-established in cancer, it is only in recent years investigations into the implications of somatic mutations in healthy
-tissues have begun to be feasible, due to advances in sequencing technologies and protocols. The requirement of specialist techniques has, however, limited the study of somatic mutations in healthy tissues to small sample sizes, which do not allow for assessment of the impact of somatic mutations on human health on a population scale. We posited that it may be possible to study variation in the somatic mutation rate between individuals and across the genome through analysis of low-depth sequencing data, by
-developing strategies to distinguish the contribution of somatic mutations to the mismatches (relative to the reference genome) observed in these data from sequencing errors, DNA damage and other artefacts.
+### Pediatric Dependency Map (PedDep)
+**St. Jude Children's Research Hospital** | 2024–Present
 
-Using somatic mutation rates obtained from the literature, we estimated that 0.4% of the mismatches between the UK Biobank exome sequencing reads and the reference genome were due to somatic mutations. We demonstrated that this proportion was sufficient to induce a relationship between the abundance of mismatches and age when individuals were grouped by integer age. We then searched for additional sample properties that are correlated with the mismatch burden and found positive correlations
-with cancer diagnosis and smoking status. However, by carefully examining the UK Biobank exome sequencing data, we uncovered previously unreported batch effects relating to sequencing run. The observed associations with cancer diagnosis and smoking
-status were lost when we corrected for this batch effect. However, the batch correction improved the correlation between age and mismatch load.
+I lead computational analysis for the Pediatric Dependency Map project, a pediatric extension to the Broad Institute's DepMap initiative. This project characterizes ~300 pediatric cancer cell lines using:
 
-Individuals diagnosed with Lynch syndrome have increased somatic mutation loads due to deficiencies in mismatch repair genes and we investigated whether this effect could be detected in the exome sequencing data. In the UK Biobank, we identified
-160 individuals with pathogenic variants associated with Lynch syndrome. Using the COSMIC signatures associated with mismatch repair, we compared the contribution of mismatch repair mutational signatures between the Lynch syndrome samples and
-the remaining samples. We detected a marginally statistically significant difference between the contribution of SBS18 between the two sample groups; however, this result did not survive multiple correction testing.
+- **CRISPR knockout screens** to identify genetic dependencies
+- **Whole genome sequencing** for comprehensive mutation profiling
+- **RNA sequencing** including long-read technologies
+- **Epigenomic profiling** to understand regulatory landscapes
 
+Our goal is to accelerate precision medicine by identifying novel therapeutic targets and drug combinations specific to pediatric malignancies.
+
+---
+
+### ALTitude: Predicting Telomere Maintenance Mechanisms
+
+Cancer cells must overcome the end-replication problem to achieve replicative immortality. While 85-90% of cancers activate telomerase (TERT), 10-15% use **Alternative Lengthening of Telomeres (ALT)**—a recombination-based mechanism associated with poor prognosis in neuroblastoma, osteosarcoma, and soft tissue sarcomas.
+
+**ALTitude** is a machine learning framework I developed to predict ALT status from whole-genome sequencing data. Key findings include:
+
+- **Accurate ALT prediction** across 1,600+ cancer cell lines using telomeric features
+- **ATRX loss-of-function** is enriched in ALT+ tumors but ~30% of ATRX-mutant samples are ALT-negative
+- **SMARCAL1 as a therapeutic vulnerability**: ALT+ cancers with ATRX loss show synthetic lethality with SMARCAL1 depletion
+- **Lineage-specific effects** in SMARCAL1 dependency patterns
+
+This work positions St. Jude to identify and validate therapeutic targets in ALT+ pediatric cancers, which are enriched in solid tumors like neuroblastoma and osteosarcoma.
+
+---
+
+### Extrachromosomal DNA (ecDNA) in Neuroblastoma
+
+I'm investigating ecDNA and its role in pediatric cancers, particularly:
+
+- **MYCN amplification** occurs in ~40% of high-risk neuroblastoma cases
+- ecDNA enables rapid copy number changes and drug resistance
+- Developing computational methods to detect and characterize ecDNA from WGS data
+
+---
+
+## Previous Research
+
+### Somatic Mutations in Population Sequencing
+**University of Galway** | PhD Research
+
+My doctoral work investigated somatic mutational processes in healthy populations using UK Biobank exome data (200,000+ samples). Key contributions:
+
+- Demonstrated that ~0.4% of sequencing mismatches are attributable to somatic mutations
+- Discovered previously unreported batch effects in UK Biobank sequencing data
+- Investigated Lynch syndrome signatures in population-scale data
+- Developed methods to distinguish somatic mutations from sequencing artifacts
+
+### GWAS Method Development
+**University of Galway** | PhD Research
+
+- Developed polygenic scoring methods that improve GWAS statistical power
+- Demonstrated that controlling for background genetic effects increases discovery of trait-associated variants
+
+### AMP-T2D Bioinformatics
+**EMBL-EBI** | 2018
+
+- Built GWAS pipelines for the Accelerating Medicines Partnership - Type 2 Diabetes project
+- Developed federated data analysis infrastructure to enable European genetic data to remain within Europe while contributing summary statistics to the AMP-T2D Knowledge Portal
+
+---
+
+## Technical Expertise
+
+<div class="skills-grid">
+
+**Cancer Genomics**
+- CRISPR screen analysis (knockout, CRISPRi)
+- Somatic mutation calling & signature analysis
+- Telomere biology & ALT detection
+- ecDNA characterization
+
+**Computational Methods**
+- Machine learning (scikit-learn, XGBoost)
+- Statistical modeling (R, Julia)
+- Pipeline development (Snakemake, Nextflow)
+- Large-scale data analysis
+
+**Data Resources**
+- Pediatric Dependency Map (PedDep)
+- DepMap / Cancer Cell Line Encyclopedia
+- UK Biobank, TCGA, GTEx, ICGC
+- TARGET pediatric cancer data
+
+**Infrastructure**
+- HPC cluster administration
+- Cloud computing (AWS, GCP)
+- Containerization (Docker, Singularity)
+
+</div>
+
+---
+
+## Collaborations
+
+I work closely with experimental labs at St. Jude to validate computational predictions, including:
+
+- **Geeleher Lab** - Drug response prediction and pharmacogenomics
+- **Guenther Lab** - ALT biology and telomere maintenance
+- Collaborative projects across the Department of Computational Biology

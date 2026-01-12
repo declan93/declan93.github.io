@@ -1,67 +1,111 @@
 ---
 layout: default
 ---
-<div class="header">
-  <h2></h2>
-  <p> This website is rarely updated and is very much a work in progress. </p> 
-    <p> I am a computational biologist interested in applying the bioinformatics analysis of genetic data to drive the realisation of personalised medicine.  </p>
-  
-    <p>A brief overview of my background can be found <a href="{{ site.baseurl }}/Bio">here.</a> 
-  </p> 
-</div>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8VH0GQB47"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1>Declan Bennett</h1>
+    <p class="hero-subtitle">Computational Biologist at St. Jude Children's Research Hospital, developing machine learning approaches to identify therapeutic vulnerabilities in pediatric cancers.</p>
+    <div class="hero-cta">
+      <a href="{{ site.baseurl }}/Research" class="btn btn-primary">View Research</a>
+      <a href="{{ site.baseurl }}/Bio" class="btn btn-secondary">About Me</a>
+    </div>
+  </div>
+</section>
 
-  gtag('config', 'G-S8VH0GQB47');
-</script>
+<!-- Research Highlights -->
+<section class="research-highlights" style="padding: 4rem 0;">
+  <div class="container">
+    <div class="section-header">
+      <h2>Research Focus</h2>
+      <p>Leveraging computational methods to accelerate precision medicine in pediatric oncology</p>
+    </div>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
-
-        <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+    <div class="research-grid">
+      <div class="card research-card">
+        <div class="card-body">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM10 4h4v2h-4V4zm6 11h-3v3h-2v-3H8v-2h3v-3h2v3h3v2z"/></svg>
+          </div>
+          <h3 class="card-title">Pediatric Cancer Dependencies</h3>
+          <p class="card-text">Leading computational analysis for the Pediatric Dependency Map (PedDep), identifying genetic vulnerabilities and drug targets in ~300 pediatric cancer cell lines.</p>
         </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+      <div class="card research-card">
+        <div class="card-body">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <h3 class="card-title">ALTitude: Telomere Maintenance</h3>
+          <p class="card-text">Developed machine learning models to predict Alternative Lengthening of Telomeres (ALT) status, revealing therapeutic vulnerabilities like SMARCAL1 in ALT+ cancers.</p>
+        </div>
+      </div>
 
-  <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
+      <div class="card research-card">
+        <div class="card-body">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/></svg>
+          </div>
+          <h3 class="card-title">Genomics & GWAS</h3>
+          <p class="card-text">Experience with large-scale genomic analysis (UK Biobank, TCGA, GTEx) and developing methods to improve GWAS statistical power using polygenic scores.</p>
+        </div>
+      </div>
+    </div>
   </div>
-  {% endif %}
-</div>
+</section>
+
+<!-- Latest Blog Posts -->
+<section class="latest-posts" style="padding: 4rem 0; background: #f7fafc;">
+  <div class="container">
+    <div class="section-header">
+      <h2>Latest Posts</h2>
+      <p>Thoughts on research, bioinformatics, and academic life</p>
+    </div>
+
+    <div class="posts">
+      {% for post in paginator.posts %}
+        <article class="post">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <h1>{{ post.title }}</h1>
+            <div>
+              <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+            </div>
+          </a>
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+      {% endfor %}
+
+      <!-- Pagination -->
+      {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+        {% else %}
+          <span>&laquo; Prev</span>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <span class="current">{{ page }}</span>
+          {% elsif page == 1 %}
+            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+          {% else %}
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+        {% else %}
+          <span>Next &raquo;</span>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
