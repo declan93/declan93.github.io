@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true
+      - name: Install dependencies
+        run: bundle install
       - name: Build the site
         run: bundle exec jekyll build --future
