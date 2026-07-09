@@ -13,7 +13,7 @@ My research focuses on applying computational and machine learning methods to id
 ### Pediatric Dependency Map (PedDep)
 **St. Jude Children's Research Hospital** | 2024–Present
 
-I lead computational analysis for the Pediatric Dependency Map project, a pediatric extension to the Broad Institute's DepMap initiative. This project characterizes ~300 pediatric cancer cell lines using:
+I lead computational analysis for the Solid tumour working group of the Pediatric Dependency Map project, a pediatric extension to the Broad Institute's DepMap initiative. This project characterizes ~300 pediatric cancer cell lines using:
 
 - **CRISPR knockout screens** to identify genetic dependencies
 - **Whole genome sequencing** for comprehensive mutation profiling
